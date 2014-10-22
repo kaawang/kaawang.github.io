@@ -4,7 +4,7 @@ body {
 position: relative;
 }
 
-  .q1 h1, .q2 h1, .q3 h1{
+  .q1 h1, .q2 h1, .q3 h1, .q4 h1{
    color: red;
    text-align: center;
    font-family: arial;
