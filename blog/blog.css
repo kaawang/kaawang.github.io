@@ -86,6 +86,7 @@ width:80%;
 
 .bloglist{
     position: relative;
+    font-family: Arial;
     margin: auto;
     padding: auto;
 }
@@ -104,6 +105,9 @@ margin-right:auto;
     text-indent: 50px
 }
 
+h3.examples{
+    text-align: center;
+}
 
 /*||||||||||||||||||||||||||||||||||||||||||||Footer||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||Footer||||||||||||||||||||||||||||||||||||||||||||*/
