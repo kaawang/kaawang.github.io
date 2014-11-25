@@ -38,13 +38,15 @@
    
         <p><h3><em><strong>What is Composition?</strong></em></h3>    
         <h4 style="text-indent:40px;">
-            
-        </h4>
-        </p>
-
-        <p><h3><em><strong>Compare the two and what do you get?</strong></em></h3>
-        <h4 style="text-indent:40px;">
-
+               Inheritance will only be a 1 to 1 copy from class to subclass. Eventually, as the program grows bigger, inherited and parent classes will slowly start to diverge to satisfy the functions written by the programmer. Composition is similar to inheritance but still different at the same time. They both share the idea of using methods and functions from one class to another but the way they do it is different. Here's where Composition shines. There are 2 ways that can "mimick" the uses of inheritance. 
+               <br>
+               1. Share the parent class to a subclass by adding this line, (parentclasshere).new(self).(parentmethodhere)
+               <br> This line calls the Parent class within the subclass and uses a method from the parent class. Awesome right?
+               <br>
+               2. Another method is to use modules and mixins. Just add the line module (modulenamehere). Also, use the line, include (modulenamehere) wherever you want to access the class of choice. Pretty interesting if you ask me. 
+               <br>
+               <br>
+               Personally, I would start getting used to composition as I feel that it may come in handy on bigger projects.
         </h4>
         </p>
 
