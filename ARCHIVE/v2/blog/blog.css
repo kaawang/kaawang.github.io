@@ -63,11 +63,11 @@ header{
      background: #F0F8FF;
      position:fixed;
      top:80px;
-     left:170px;
-     width:60%;
-     height:70%;
-     padding-left: 20px;
-     padding-right: 20px;
+     left:150px;
+     width:65%;
+     height:80%;
+     padding-left: auto;
+     padding-right: auto;
      overflow: scroll;
 }
 
@@ -77,14 +77,36 @@ header{
 
 #body_content img{
     position: relative;
-    display:block;
-    left:34%;
-    max-width: 200px;
-    max-height: 250px;
-    min-width: 199px;
-    min-height: 249px;
-    width: 50%;
+display: block;
+padding: 50px;
+left: 2%;
+width:80%;
 
+}
+
+.bloglist{
+    position: relative;
+    font-family: Arial;
+    margin: auto;
+    padding: auto;
+}
+
+.bloglist a{
+     background: #F0F8FF;
+margin-left: auto;
+margin-right:auto;
+    display: block;
+    width: 200px;
+    
+}
+
+
+.learningstyle{
+    text-indent: 50px
+}
+
+h3.examples{
+    text-align: center;
 }
 
 /*||||||||||||||||||||||||||||||||||||||||||||Footer||||||||||||||||||||||||||||||||||||||||||||*/
@@ -123,6 +145,7 @@ footer{
 #cr p{
     position: fixed;
     bottom:0%;
+    left:0%;
 }
 
 /*||||||||||||||||||||||||||||||||||||||||||||BLOG||||||||||||||||||||||||||||||||||||||||||||*/
