@@ -17,7 +17,7 @@ html, body{
 }
 
 section{
-  background-image: url("../imgs/section1_background.jpg");
+  background-image: url("imgs/section1_background.jpg");
   height:1000px;
   background-position: center;
   background-size: cover;      
