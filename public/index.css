@@ -17,24 +17,27 @@ html, body{
 }
 
 section{
-  background-image: url("imgs/section1_background.jpg");
-  height:1000px;
-  background-position: center;
-  background-size: cover;      
-  margin-bottom: 5px;
+  /*background-image: url("../imgs/section1_background.jpg");*/
+  height: 940px;
+  background-size: cover;
+  /*margin-bottom: 5px;*/
+  outline: 1px solid;
 }
 
-#nav{
-  text-align: left;
+#nav, footer{
   list-style-type: none;
-  /*position: fixed;*/
-  text-align: center;
+  background-color: black;
+  padding: 10px;
+  right: 20%;
+}
 
+#nav a, footer {
+  color: white;
 }
 
 h2{
   text-align: center;
-  color: yellow;
+  /*color: yellow;*/
   font-size: 50px;
 }
 
