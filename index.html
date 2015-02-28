@@ -4,11 +4,10 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"> -->
     <meta name="viewport" content="width=device-width, initial-scale =1,user-scalable=yes" />
     <meta http-equiv="Content-Type" content="text/html">
     <meta name="author" content="William Tsang">
-    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="public/jquery.min.1.11.2.js"></script>
     <script type="text/javascript" src="public/jquery.scrollTo.js"></script>
     <script type="text/javascript" src="public/jquery.backstretch.js"></script>
     <script type="text/javascript" src="public/application.js"></script>
@@ -19,20 +18,23 @@
   </head>
   <nav id="stickynav">
     <li id="nav">
-      <a href="#greeting"> </a>
-      <a href="#aboutme"> about me </a>
-      <a href="#portfolio"> portfolio </a>
-      <a href="#contact"> contact</a>
-      <a href="#resume"> resume</a>
+      <a class="link" href="#aboutme">about me</a>
+      <a class="link" href="#portfolio">portfolio</a>
+      <a class="link" href="#contact">contact</a>
+      <a class="link" href="#greeting">back to top</a>
+      <a class="link" href="#resume">resume</a>
     </li>
   </nav>
-
   <body>
     <div id="container">
-
       <section id="greeting" class="section">
-        <h2>Hi, I'm William!</h2>
-
+        <div id="greeting_hlist">
+          <ul>
+            <li><img class="greeting_img" src="imgs/DBC-Selfshot.png"></li>
+            <li><h2>Hi, I'm William!</h2> </li>
+            <li><h3>web developer, awesome guy, lorem ipsum</h3></li>
+          </ul>
+        </div>
       </section>
 
       <section id="aboutme" class="section">
