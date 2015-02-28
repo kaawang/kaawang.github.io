@@ -1,3 +1,4 @@
+/*============GLOBAL============ */
 *{
     /*outline: 1px solid;*/
     font-family: 'Noto Serif', serif;
@@ -10,6 +11,9 @@ a:hover, a:visited, a:link {
   text-decoration: none;
   color: black;
 }
+/*============END GLOBAL============*/
+
+/*============NAV============*/
 
 #stickynav{
   position: fixed;
@@ -26,12 +30,17 @@ a:hover, a:visited, a:link {
   color: white;
 }
 
+/*============END NAV============*/
+
+/*============SECTION============*/
 .section {
   padding-top: 40px;
   height: 895px;
   outline: 1px solid;
-}
+/*============END SECTION============*/
 
+}
+    /*============SECTION>GREETING============*/
 #greeting_hlist, h2{
   text-align: center;
   padding-top: 25px; 
@@ -47,6 +56,17 @@ a:hover, a:visited, a:link {
 .section h2{
   font-size: 50px;
 }
+/*============END SECTION>GREETING============*/
+
+
+/*============SECTION>PORTFOLIO============*/
+
+/*============END SECTION>PORTFOLIO============*/
+
+
+/*============SECTION>CONTACT============*/
+
+/*============END SECTION>CONTACT============*/
 
 footer{
   text-align: center;
