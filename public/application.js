@@ -1,5 +1,14 @@
 $(document).ready(function(){
 
+  // INTRO JOKE
+
+    $("#greeting_hlist, #greeting_joke, #greeting_joke_answer").hide();
+    $("#greeting_joke").fadeIn(2000).delay(3500).fadeOut(2000);
+    $("#greeting_joke_answer").delay(8000).fadeIn(1000).delay(800).fadeOut(1000);
+    $("#greeting_hlist").delay(11500).fadeIn(1000);
+
+  // END INTRO JOKE
+
   // NAV SMOOTH SCROLL
   $("#nav a").click(function(e){
     e.preventDefault();
@@ -15,6 +24,22 @@ $(document).ready(function(){
     $('html,body').scrollTo(this.hash,this.hash);
   });
   // END NAV SMOOTH SCROLL
+
+  // NAV KEY
+
+    // $(document).scroll(function() {
+    //   var currentHeight = $(document).scrollTop();
+    //   if (currentHeight > 0 && currentHeight < 940){ 
+    //   } else if (currentHeight > 950 && currentHeight < 1850){
+    //     $(".link")[0].style.backgroundColor = "#87CEEB";
+    //   } else if (currentHeight > 1860 && currentHeight < 2800){
+    //     $(".link")[1].style.backgroundColor = "#87CEEB";
+    //   } else if (currentHeight > 2810 && currentHeight < 3730){
+    //     $(".link")[2].style.backgroundColor = "#87CEEB";
+    //   }
+    // });
+
+  // END NAV KEY
 
 // KEY TO SECTION // need to use bind function to retain this value of DOM
   // document.addEventListener("keydown", scrollToNextSection, false)
@@ -37,5 +62,7 @@ $(document).ready(function(){
   // }
 
 // END KEY TO SECTION
+
+
 
 }); // END DOC

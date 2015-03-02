@@ -56,6 +56,18 @@ a:hover, a:visited, a:link {
 .section h2{
   font-size: 50px;
 }
+
+#greeting_joke{
+  padding-top: 40px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#greeting_joke_answer{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 100px;  
+}
 /*============END SECTION>GREETING============*/
 
 
@@ -70,4 +82,11 @@ a:hover, a:visited, a:link {
 
 footer{
   text-align: center;
+}
+
+#picturestory div{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  outline: 1px solid;
 }
