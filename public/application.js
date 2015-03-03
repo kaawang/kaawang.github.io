@@ -25,41 +25,61 @@ $(document).ready(function(){
   });
   // END NAV SMOOTH SCROLL
 
-  // NAV KEY
 
-    // $(document).scroll(function() {
-    //   var currentHeight = $(document).scrollTop();
-    //   if (currentHeight > 0 && currentHeight < 940){ 
-    //   } else if (currentHeight > 950 && currentHeight < 1850){
-    //     $(".link")[0].style.backgroundColor = "#87CEEB";
-    //   } else if (currentHeight > 1860 && currentHeight < 2800){
-    //     $(".link")[1].style.backgroundColor = "#87CEEB";
-    //   } else if (currentHeight > 2810 && currentHeight < 3730){
-    //     $(".link")[2].style.backgroundColor = "#87CEEB";
-    //   }
-    // });
+// test
+  var copy_sel = $("#contact_format");
+  copy_sel.on("click",function(e){
+    e.preventDefault();
+  });
 
-  // END NAV KEY
+  copy_sel.clipboard({
+    path:"public/jquery.clipboard.swf",
+    copy: function(){
+      var this_sel = $(this);
+      
+    }
+  })
+
+// end test
+
+
+
+
+//   NAV KEY
+
+//     $(document).scroll(function() {
+//       var currentHeight = $(document).scrollTop();
+//       if (currentHeight > 0 && currentHeight < 940){ 
+//       } else if (currentHeight > 950 && currentHeight < 1850){
+//         $(".link")[0].style.backgroundColor = "#87CEEB";
+//       } else if (currentHeight > 1860 && currentHeight < 2800){
+//         $(".link")[1].style.backgroundColor = "#87CEEB";
+//       } else if (currentHeight > 2810 && currentHeight < 3730){
+//         $(".link")[2].style.backgroundColor = "#87CEEB";
+//       }
+//     });
+
+//   END NAV KEY
 
 // KEY TO SECTION // need to use bind function to retain this value of DOM
-  // document.addEventListener("keydown", scrollToNextSection, false)
+//   document.addEventListener("keydown", scrollToNextSection, false)
 
-  // function scrollToNextSection(event) {
-  //     // $('html,body').scrollTo(this.hash, this.hash);
-  //   if (event.keyCode === 37) {
-  //     console.log("left");
-  //   } else if (event.keyCode === 38) {
-  //     console.log("up");
-  //     console.log(this)
-  //   } else if (event.keyCode === 39) {
-  //     console.log("right");
-  //   } else if (event.keyCode === 40) {
-  //     console.log("down");
-  //     console.log(this)
-  //   } else {
-  //     console.log("not a directional key");
-  //   }
-  // }
+//   function scrollToNextSection(event) {
+//       // $('html,body').scrollTo(this.hash, this.hash);
+//     if (event.keyCode === 37) {
+//       console.log("left");
+//     } else if (event.keyCode === 38) {
+//       console.log("up");
+//       console.log(this)
+//     } else if (event.keyCode === 39) {
+//       console.log("right");
+//     } else if (event.keyCode === 40) {
+//       console.log("down");
+//       console.log(this)
+//     } else {
+//       console.log("not a directional key");
+//     }
+//   }
 
 // END KEY TO SECTION
 
