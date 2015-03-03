@@ -21,15 +21,26 @@ $(document).ready(function(){
     this.style.backgroundColor = "#87CEEB";
     // END NAV HIGHLIGHT
 
-    $('html,body').scrollTo(this.hash,this.hash);
+    $("html,body").scrollTo(this.hash,this.hash);
   });
   // END NAV SMOOTH SCROLL
 
+  // ABOUT ME FADE TEXT/PICTURES
 
-// test
+  $("#aboutmepictures, .aboutmeinnertext_magicbuttonback").hide();
+  $(".aboutmeinnertext_magicbutton").mouseover(function(){
+    $(".aboutmetext, .aboutmeinnertext_magicbutton").fadeOut(1000);
+    $("#aboutmepictures, .aboutmeinnertext_magicbuttonback").delay(1000).fadeIn(1000);
+  });
+
+  $(".aboutmeinnertext_magicbuttonback").mouseover(function(){
+    $("#aboutmepictures, .aboutmeinnertext_magicbuttonback").fadeOut(1000);
+    $(".aboutmetext, .aboutmeinnertext_magicbutton").delay(1000).fadeIn(1000);
+  });
+
+  // END ABOUT ME FADE TEXT/PICTURES
 
 
-// end test
 
 
 
