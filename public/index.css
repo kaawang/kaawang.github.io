@@ -83,12 +83,19 @@ a:hover, a:visited, a:link {
   padding-top: 80px;
 }
 
-#contact_format li{
-  background-color: green;
+#contact_format div{
+  outline: 1px solid;
+  background-color: white;
   margin: 5px;
   display: inline-block;
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
+}
+
+.socialmedia{
+  position: relative;
+  height: 200px;
+  width: 200px;
 }
 
 /*============END SECTION>CONTACT============*/
@@ -97,9 +104,9 @@ footer{
   text-align: center;
 }
 
-#picturestory div{
+/*#picturestory div{
   display: inline-block;
   width: 100px;
   height: 100px;
   outline: 1px solid;
-}
+}*/

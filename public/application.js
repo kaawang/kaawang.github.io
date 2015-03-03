@@ -27,18 +27,7 @@ $(document).ready(function(){
 
 
 // test
-  var copy_sel = $("#contact_format");
-  copy_sel.on("click",function(e){
-    e.preventDefault();
-  });
 
-  copy_sel.clipboard({
-    path:"public/jquery.clipboard.swf",
-    copy: function(){
-      var this_sel = $(this);
-      
-    }
-  })
 
 // end test
 
