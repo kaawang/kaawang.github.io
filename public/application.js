@@ -20,7 +20,8 @@ $(document).ready(function(){
     };
     this.style.backgroundColor = "#87CEEB";
     // END NAV HIGHLIGHT
-
+    console.log(this);
+    console.log(this.hash);
     $("html,body").scrollTo(this.hash,this.hash);
   });
   // END NAV SMOOTH SCROLL
