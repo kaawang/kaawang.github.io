@@ -39,6 +39,8 @@ $(document).ready(function(){
     $(".aboutmetext, .aboutmeinnertext_magicbutton").delay(1000).fadeIn(1000);
   });
 
+  $("#aboutmepictures").slick();
+
   // END ABOUT ME FADE TEXT/PICTURES
 
 
