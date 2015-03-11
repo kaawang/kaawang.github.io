@@ -28,7 +28,7 @@ Enjoy as I add more content!
 
 Content to be added
 ------------------------
-Add my name to top nav bar
-More projects
-Fix About me images to carousel 
-Fix Contact boxes to footer
+- Add my name to top nav bar
+- More projects
+- Fix About me images to carousel 
+- Fix Contact boxes to footer
