@@ -9,10 +9,7 @@
     <meta name="author" content="William Tsang">
     <script type="text/javascript" src="public/jquery.min.1.11.2.js"></script>
     <script type="text/javascript" src="public/jquery.scrollTo.js"></script>
-    <script type="text/javascript" src="public/jquery.backstretch.js"></script>
-    <script type="text/javascript" src="public/jquery.clipboard.js"></script>
     <script type="text/javascript" src="public/application.js"></script>
-    <script type="text/javascript" src="public/slick.min.js"></script>
     <link rel="stylesheet" type="text/css" href="public/index.css">
     <!-- <link rel="stylesheet" type="text/css" media="all˚" href="public/media.css"> -->
     <link href='http://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
@@ -24,7 +21,8 @@
       <a class="link" href="#portfolio">portfolio</a>
       <a class="link" href="#contact">contact</a>
       <a class="link" href="#greeting">back to top</a>
-      <a class="link" href="#resume">resume</a>
+      <!-- <a class="link" href="#resume">resume</a> -->
+      <span class="name"><strong>William K Tsang</strong></span>
     </li>
   </nav>
   <body>
@@ -47,7 +45,7 @@
         </div>
       </section>
 
-      <section id="aboutme" class="section">
+      <section id="aboutme" class="sectioncolored">
         <h2>Past to Present</h2>
         <div class="aboutmetext">
           <h3>
@@ -72,7 +70,7 @@
         </div>
         <div class="aboutmeinnertext_magicbutton"><h3>Too long, didn't read? No problem. Hover me!</h3></div>
 
-        <div id="aboutmepictures">
+        <div id="aboutmepictures"> 
           <div>
             BS in Electrical Engineering 2011
             <img class="aboutmeimgtag" src="imgs/sfsu.jpg">
@@ -102,19 +100,24 @@
                 <li>Hummingbird</li>
                 <img src="imgs/hummingbird-background.png">  
               </h3>
+          </div>
             </div>
 
             <div id="hummingbird_description">
-              <h3>
+              <h3><strong>Summary</strong></h3><br>
+              <h4>
+                <p>
+                  Hummingbird was created with a purpose of scheduling text messages so that they could be sent at the right time. Our idea was to have the backend API always up and running so that frontend users could connect to it. The best way to envision this idea was through decoupled architecture. By decoupling the web app, the backend could actively batch up messages to be sent while the frontend users access the application to schedule their messages. The tech stack includes Ruby on Rails using the Twilio API for the backend and Ionic(AngularJS) framework for the frontend.
+                </p><br>
+                <h3><strong><li>Tech Stack</li></strong></h3><br>
                 <li>Decoupled Archiecture</li>
                 <li>Frontend: Ionic Framework with AngularJS</li>
-                <li>Backend: Rails with PostgreSQL</li>
-              </h3>
+                <li>Backend: Rails with PostgreSQL</li><br>
+              </h4>
             </div>
-          </div>
       </section>
 
-      <section id="contact" class="section">
+      <section id="contact" class="sectioncolored">
         <h2>Contact me</h2>
         <div id="contact_format">
           <div>email: williamkt91@gmail.com
@@ -124,7 +127,7 @@
           </div>
           <div>github: kaawang
             <a href="https://github.com/kaawang">
-              <img class="socialmedia" src="imgs/github.png">
+              <img class="socialmediagithub" src="imgs/github.png">
             </a>
           </div>
           <div>linkedin: williamktsang
@@ -134,7 +137,7 @@
           </div>
           <div>twitter: williamktsang
             <a href="https://twitter.com/WilliamKTsang">
-              <img class="socialmedia"src="imgs/twitter.png">
+              <img class="socialmediatwitter"src="imgs/twitter.png">
             </a>
           </div>
         </div>
@@ -142,6 +145,6 @@
     </div>
   </body>
   <footer>
-    &nbsp; &#169; William Tsang 2015
+    &nbsp; &#169; William K Tsang 2015
   </footer>
 </html>
