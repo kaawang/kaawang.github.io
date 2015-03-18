@@ -53,7 +53,7 @@
     						<li> <a href="#aboutme" class="smoothScroll"> About Me</a></li>
     						<li> <a href="#history" class="smoothScroll"> History</a></li>
     						<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
-    						<li> <a><strong><span class="navname"> William K Tsang</span></strong></a></li>
+    						<!-- <li> <a><strong><span class="navname"> William K Tsang</span></strong></a></li> -->
     					</ul>
     				</div><!--/.nav-collapse -->
     			</div>
@@ -63,7 +63,7 @@
     	<!-- ==== HEADERWRAP ==== -->
     	<div id="headerwrap" id="home" name="home">
     		<header class="clearfix">
-    			<p>Hi, I'm William!</p>
+                  <div id="greetingmodal"><p><strong>Hi, I'm William!</strong></p></div>
     		</header>	    
     	</div><!-- /headerwrap --> 
 
@@ -120,7 +120,7 @@
   		<h1 class="centered">MY PORTFOLIO OF COOL THINGS</h1>
   		<hr>
   		<br>
-  		<span style="text-align:center"><h4>Just a few things I've worked. More to come.</h4></span>
+  		<span style="text-align:center"><h4>Just a few things I've worked on. More to come.</h4></span>
   		<br>
   	</div><!-- /row -->
   	<div class="container">
@@ -128,9 +128,10 @@
 
   			<!-- PORTFOLIO IMAGE 1 -->
   			<div class="col-md-4 ">
-  				<div class="grid mask">
-					<h4 class="centered">Hummingbird - Schedule your SMS messages!</h4>
+  				<div class="grid-mask">
+					<h4 class="centered"><strong>Hummingbird</strong></h4>
 					<a data-toggle="modal" href="#myModal1" class="btn btn-primary btn-lg">
+
                                 <img class="img-responsive" src="assets/img/portfolio/hummingbird.png" alt="">
                               </a>
   				</div><!-- /grid-mask -->
@@ -173,8 +174,8 @@
 
   			<!-- PORTFOLIO IMAGE 2 -->
   			<div class="col-md-4">
-  				<div class="grid mask">
-                          <h4 class="centered">Survey Monkey Clone - Make or take your surveys!</h4>
+  				<div class="grid-mask">
+                          <h4 class="centered"><strong>Survey Monkey Clone</strong></h4>
                           <a data-toggle="modal" href="#myModal2" class="btn btn-primary btn-lg">       
                             <img class="img-responsive" src="assets/img/portfolio/surveygorillapemonkeychimp.png" alt="">
                           </a>
@@ -215,8 +216,8 @@
 
   			<!-- PORTFOLIO IMAGE 3 -->
   			<div class="col-md-4">
-  				<div class="grid mask">
-                          <h4 class="centered">!Twitter Clone - !Tweet a little</h4>
+  				<div class="grid-mask">
+                          <h4 class="centered"><strong>!Twitter Clone</strong></h4>
                           <a data-toggle="modal" href="#myModal3" class="btn btn-primary btn-lg">
   				    <img class="img-responsive" src="assets/img/portfolio/nottwitter.png" alt="">
                           </a>
@@ -258,9 +259,11 @@
 </div>
 
   	<!-- ==== ABOUT ME ==== -->
-  	<div class="container" id="aboutme" name="aboutme">
-  		<div class="row" id="greywrap">
-  			<h1 class="centered">SOMETHING ABOUT ME</h1>
+<!--   	<div class="container" id="aboutme" name="aboutme">
+  		<div class="row" id="greywrap"> -->
+            <div id="aboutme" name="aboutme">
+              <div class="row" id="greywrap">
+  			<h1 class="centered">A LITTLE BIT ABOUT ME</h1>
   			<hr>
   			<br>
   			<div class="col-lg-offset-2 col-lg-8">
@@ -268,7 +271,7 @@
   				<br>
   				<br>
   				<span><h4><strong>William K Tsang</strong></h4></span>
-  				<p style="text-align: left">
+  				<p style="text-align: center">
   					I am an eccentric web developer with a curiousity for finding out how things work. Since I was young, I've always had a habit for disassembling and reassembling my toys, electronics, furniture, and etc. My hypothesis is that I'm either trying to fix a broken part or to make it more efficient. This particular habit combined with the fear of programming pushed me to enroll at Dev Bootcamp where I learned about web development and intra/intrepersonal skills.
   					<br><br>
   					Fun Fact: I developed the mindset of not saying, "I dont know." until I've dived into the problem. How do I not know if I haven't tried it yet?
@@ -292,17 +295,17 @@
   		</div><!-- row -->
   	</div><!-- container -->
 
-  	<div class="container" id="contact" name="contact">
-  		<div class="row">
+  	<div id="contact" name="contact">
+  		<div class="row" id="greywrap">
   			<br>
-  			<h1 class="centered">5 WAYS TO REACH ME</h1>
+  			<h1 class="centered">CONTACT ME</h1>
   			<hr>
   			<br>
   			<!-- <div class="col-lg-offset-5 col-lg-5"> -->
-  			<div class="col-lg-offset-1 col-lg-3">
-  				<ul>
+  			<div class="col-lg-offset-3 col-lg-3">
+  				<ul style="text-align: left;">
   					<br>
-  					<li class="fa fa-mobile fa-3x" style="padding-left: 5px"></li><a style="padding-left:24px" href="">415dot275dot1437</a> <br><br>
+                              <br>
   					<li class="fa fa-envelope fa-2x" style="padding-left: -1px"></li> <a style="padding-left:15px" href="mailto:williamkt91@gmail.com?Subject=Hello%20William!"> williamkt91@gmail.com</a><br><br>
   					<li class="fa fa-linkedin fa-2x" style="padding-left: 3px"></li> <a style="padding-left:17px" href="https://linkedin.com/in/williamktsang"> williamktsang </a><br><br>
   					<li class="fa fa-github fa-2x" style="padding-left: 3px"></li> <a style="padding-left:17px" href="https://github.com/kaawang?tab=repositories"> kaawang</a><br><br>
@@ -310,40 +313,29 @@
   				</ul>
   			</div><!-- col -->
 
-  			<div class="col-lg-7">
-  				<div class="centered">
-  					<h4>
-  						or send a message real quicks
+  			<div class="col-lg-offset-0 col-lg-6">
+  				<div>
+  					<h4 class="centered" style="text-align: left">
+  						or send a message
   					</h4>
   				</div>
-
   				<form action="https://formspree.io/williamkt91@gmail.com" name="sentMessage" id="contactForm" novalidate="" method="POST">
   					<div class="row">
-  						<div class="col-md-12">
-  							<div class="form-group">
-  								<input type="text" name="name" class="form-control" placeholder="your name or secret identity *" id="name" required="" data-validation-required-message="I'll need to know your name.">
-  								<p class="help-block text-danger"></p>
-  							</div>
-  							<div class="form-group">
-  								<input type="email" name="_replyto" class="form-control" placeholder="your email address *" id="email" required="" data-validation-required-message="How am I going to respond back without your email address?.">
-  								<p class="help-block text-danger"></p>
-  							</div>
-  							<div class="form-group">
-  							<textarea type="text" name="message" class="form-control" placeholder="your story *" id="message" required="" data-validation-required-message="Tell me your story." rows="7"></textarea>
-  								<p class="help-block text-danger"></p>
-  							</div>
+  						<div class="col-lg-offset-0 col-lg-6">
+  							<input style="margin-bottom: 5px" type="text" name="name" class="form-control" placeholder="your name or secret identity *" id="name" required="" data-validation-required-message="I'll need to know your name.">
+  							<input style="margin-bottom: 5px" type="email" name="_replyto" class="form-control" placeholder="your email address *" id="email" required="" data-validation-required-message="How am I going to respond back without your email address?.">
+  							<textarea style="margin-bottom: 5px" type="text" name="message" class="form-control" placeholder="tell me a story *" id="message" required="" data-validation-required-message="Tell me your story." rows="7"></textarea>
   						</div>
   						<div class="clearfix"></div>
-  						<div class="col-lg-12 text-center">
+  						<div class="col-lg-offset-0 col-md-6 text-center">
   							<div id="success"></div>
-  							<input id="message" type="submit" class="btn btn-xl" value="Send it">
+  							<input id="message" type="submit" class="btn btn-xl" value="Send"><br><br>
   						</div>
   					</div>
   				</form>
   			</div> <!-- column -->
   		</div><!-- row -->
   	</div><!-- container -->
-  	<br>
   </div>
 
   <div id="footerwrap" >
